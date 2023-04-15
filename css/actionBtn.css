@@ -1,0 +1,15 @@
+.ctn {
+  background: #0086ca;
+  width: 28rem;
+  border-color: #0086ca;
+  height: 6.6rem !important;
+  font-size: 18px !important;
+  line-height: 6.2rem !important;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 414px) {
+  .ctn {
+    font-size: 16px !important;
+  }
+}

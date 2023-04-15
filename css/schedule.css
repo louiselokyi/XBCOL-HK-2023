@@ -1,0 +1,240 @@
+.textWhite {
+    color: white !important;
+}
+
+.textBlack {
+    color: #000000 !important;
+}
+
+.w-20 {
+    width: 16.6666666667% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.cellBorder0 {
+    border-width: 1px 1px 1px 1px;
+    border-color: #fff;
+    border-style: solid;
+    color: #000000;
+}
+
+
+.cellBorder1 {
+    border-width: 0px 1px 0px 1px;
+    border-color: #fff;
+    border-style: solid;
+    color: #000000;
+}
+
+.cellBorder2 {
+    border-width: 0px 1px 0px 1px;
+    border-color: #fff;
+    border-style: solid;
+    color: #000000;
+}
+
+.cellBorder3 {
+    border-width: 1px 1px 1px 1px;
+    border-color: #fff;
+    border-style: solid;
+    color: #000000;
+}
+
+.cellBorder4 {
+    border-width: 0px 1px 1px 1px;
+    border-color: #fff;
+    border-style: solid;
+    color: #000000;
+}
+
+.cell2 {
+    height: 100% !important;
+    /* align-items: center;
+    text-align: center; */
+    background: #66c2ff;
+
+    border: 1px solid #fff;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+
+.cell {
+    height: 100% !important;
+    /* align-items: center;
+    text-align: center; */
+    background: #FCE69E;
+
+    border: 1px solid #fff;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.paraTextLineHeight2 {
+    line-height: 22px;
+    /* height: 66px; */
+    margin-bottom: 0px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 15%;
+}
+
+
+.col-centered2 {
+    float: none;
+    margin: 0 15%;
+}
+
+.inSizeBall3 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.inSizeBall4 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.inSizeBall5 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.b4Footer {
+    background: #FFFFFF;
+    border: 2px solid #8C8C8C;
+}
+
+.fs-24-sm-18 {
+    font-size: 28px !important;
+}
+
+@media only screen and (max-width: 1050px) {
+    .inSizeBall3 {
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .inSizeBall4 {
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .inSizeBall2 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.right-sm-centre {
+    text-align: right !important;
+}
+
+.left-sm-centre {
+    text-align: left !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-sm {
+        padding: 24px;
+    }
+
+
+    .right-sm-centre {
+        text-align: center !important;
+    }
+
+    .left-sm-centre {
+        text-align: center !important;
+    }
+
+    [class*="col-sm-12"] {
+        padding: 0 10px;
+        padding-bottom: 36px;
+    }
+
+    .col-centered {
+        float: none;
+        margin: 0 0;
+    }
+
+    .inSizeBall3 {
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .inSizeBall4 {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .inSizeBall2 {
+        position: absolute;
+        top: 24%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+    .fs-24-sm-18 {
+        font-size: 18px !important;
+    }
+
+
+
+
+}

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>GBA | HK-BCOL 2022 Hong Kong Blockchain Olympiad | IBCOL 2022 International Blockchain Olympiad</title>
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <style>
+    button:focus {
+        outline-color: black;
+    }
+
+</style>
+
+
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<link rel="icon" href="./images/logo/IBCOL-HK.png" type="image/gif" sizes="16x16">
+<meta name="description" content="The Hong Kong Blockchain Olympiad (HK-BCOL) is the local blockchain olympiad committee working with some academic and industry professionals in Hong Kong. We sent a delegation of 12 teams to IBCOL 2022. For IBCOL 2022, the HK-BCOL will select up to 15 projects to represent Hong Kong." />
+<meta name="author" content="HKBCOL 2022 Hong Kong Blockchain Olympiad" />
+<meta property="og:image" content="./images/logo/IBCOL-HK.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+
+
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script> -->
+
+    <link rel="stylesheet" href="./css/base-2.css" />
+    <link rel="stylesheet" href="./css/vendor-2.css" />
+    <link rel="stylesheet" href="./css/main-2.css" />
+    <link rel="stylesheet" href="./css/gbRemake-2.css" />
+    <link rel="stylesheet" href="./css/dropDown-2.css" />
+    <link rel="stylesheet" href="./css/how-to-join-2.css" />
+    <link rel="stylesheet" href="./css/clickToEnlarge-2.css" />
+    <link rel="stylesheet" href="./css/rowController-2.css" />
+    <link rel="stylesheet" href="./css/chapters.css" />
+    <link rel="stylesheet" href="./css/navtabs">
+
+    <link rel="stylesheet" href="./css/tabs-new.css">
+
+    <link rel="stylesheet" href="./css/style-new.css">
+
+    
+    
+
+    <script src="./js/modernizr.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <style>
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    .while-hover:hover{
+        background-color: yellow;
+    }
+
+</style>
+</head>
+
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header class="s-header">
+        <!-- Site Logo -->
+        <header class="s-header">
+            <!-- Site Logo -->
+            <div class="header-logo">
+                <a class="site-logo" href="index.html">
+                    <img src="images/logo/resized/IBCOL HK Horizontal.png" alt="IBCOL: International Blockchain Olympiad" />
+                </a>
+            </div>
+            <!-- Navigation bar for wide screens -->
+            <div class="desktop-nav" style="padding-top: 20px">
+                <ul class="nav_list">
+                    <li><a class="NavLinkComponent desktop-nav-link" href="./about.html">About</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link" href="./rules.html">Rules</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link" href="./resources.html">Resources</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link" href="./ideathon.html">Ideathon</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link" href="./gba.html">GBA</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link-active" href="./results.html">Results</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link" href="./faq.html">FAQ</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link" href="https://passport.nb.ibcol.itdg.io/verify-registration/">Register</a></li>
+                    <li><a class="NavLinkComponent desktop-nav-link" href="./contact.html">Contacts</a></li>
+                    
+
+                </ul>
+            </div>
+            <!-- Navigation bar for mobile screens -->
+            <a class="header-menu-toggle" href="#"><span class="header-menu-icon"></span></a>
+            <nav class="header-nav">
+                <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+                <div class="header-nav__content">
+                    <ul class="header-nav__list">
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./index.html">About</a></h2></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./rules.html">Rules</a></h2></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./resources.html">Resources</a></h2></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./ideathon.html">Ideathon</a></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./gba.html">GBA</a></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./results.html">Results</a></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./faq.html">FAQ</a></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="https://passport.nb.ibcol.itdg.io/verify-registration/">Register</a></h2></li>
+                        <li><h2 class="my-0"><a class="NavLinkComponent" href="./contact.html">Contacts</a></h2></li>
+                    
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </header>    
+
+
+
+
+
+
+
+
+
+<!--Beginning-->
+
+<section class="s-section target-section topSection">
+   
+<br>
+
+
+        <div class="row" style="margin-bottom: 6rem !important;">
+            <div class="row mt-5 mx-3">
+                <div class="col-md-12 col-sm-12 col-b-12-1200">
+                    <div class="row">
+                        <div class="photoTitle" style="width: 100%;">
+                            <h2 style="all:unset;color: #040707  !important;" class="text-black">2022 大灣區區塊鏈奧林匹克 <br><br>2022 Greater Bay Area Blockchain Olympiad
+                            </h2>
+                        </div>
+                        <br>
+                        <br><br>
+                        <br><br>
+                        <p class="text-black ml-md-4 mb-0">
+                            <h3>About</h3>
+                        </p>
+
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                
+                                <p class="newblack ">
+                                    T在 2022 年 8 月 5 日至 7 日期間，一班來自粵港澳大灣區的學生們參加了由香港特別行政區政府創新科技署（Innovation and Technology Commission, ITC）與香港區塊鏈學會（Hong Kong Blockchain Society, HKBCS）主辦，為期三天之 2022 大灣區區塊鏈奧林匹克（Greater Bay Area Blockchain Olympiad, GBA IBCOL）學界比賽。  <br><br>
+                                </p>
+                            </div>
+
+                            <div class="col-md-6">
+                                
+                                <p class="newblack ">
+                                    Students from all over the Guangdong-Hong Kong-Macao Greater Bay Area (GBA) have spent three days competing in a battle of the wits: the first-ever 2022 Greater Bay Area Blockchain Olympiad (GBA IBCOL), hosted by the Innovation and Technology Commission (ITC) and the Hong Kong Blockchain Society (HKBCS), from August 5th to 7th of 2022. <br> <br>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                
+                                <p class="newblack ">
+                                    <p>
+                                        為了提高新一代與海外人才的競爭力，並最終提高學生的就業能力，香港區塊鏈學會舉辦了一年一度的香港區塊鏈奧林匹克競賽，邀請所有香港學生提出應對現實世界問題的區塊鏈技術方案。隨著區塊鏈技術的迅速發展，許多曾經看似不可能解決的難題——例如高額交易費用、雙花、網絡欺詐、找回丟失的數據等——已經有了解決辦法。儘管現時區塊鏈技術主要應用在銀行業務和加密貨幣的挖掘，但區塊鏈技術不局限於此，其應用可以更加多樣化。香港區塊鏈學會鼓勵所有香港年輕才智集思廣益，開發非傳統的區塊鏈解決方案來解決現實生活中的問題。
+                                    </p>
+                            </div>
+
+                            <div class="col-md-12">
+                                
+                                <p class="newblack ">
+                                    In a bid to increase the competitiveness against overseas talent, and ultimately the employability of students, the Hong Kong Blockchain Society hosts the annual Hong Kong Blockchain Olympiad, inviting students from all over Hong Kong to propose solutions for real-world challenges with blockchain technology. With the rapid progress of blockchain technology, many things that once seemed impossible — such as high transaction fees, double spending, net fraud, retrieving lost data, etc — have taken a shift to reality. Although the technology is mainly associated with banking and cryptocurrency mining, blockchain technology can be far more powerful and diverse in its applications. The Hong Kong Blockchain Society brings brilliant minds from all over Hong Kong together and encourages the youth to brainstorm and develop non-traditional blockchain solutions to real-life problems. <br> <br>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--   This could be added as a TITLE
+
+        <div class="row" style="margin-bottom: 6rem !important;">
+                <div class="col-md-12 col-sm-12 col-b-12-1200">
+                    <div class="row">
+                        <div class="photoTitle" style="width: 100%;">
+                        <p class="text-black ml-md-4 mb-0">
+                            <h3>Projects Information </h3>
+                        </p>
+                       
+                    </div>
+                </div>
+        </div>-->
+
+        
+                <!-- [Section] About Start -->
+  <section class="">
+    <div class="container-fluid">
+
+
+        
+                <!--Ideathon Expaned Timeline Start -->
+
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-margin">
+
+                            <div class="card-body pt-0" style="margin-left: 10%; margin-right: 10%;">
+                             
+                            <br>
+                            <br>
+                             <!--Results Tabs Start-->
+                             <section>
+                                <div class="container-fluid" style="width:90%">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <!-- Tabs nav -->
+                                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                <a style="border-radius: 15px;" class="nav-link mb-3 p-3 shadow active scrollLink" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                                    
+                                                    <span class="font-weight-bold small text-uppercase">獎牌獎 MEDALISTS</span></a>
+
+                                                <a style="border-radius: 15px;" class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                                    
+                                                    <span class="font-weight-bold small text-uppercase">主題獎 CATEGORY PRIZES</span></a>
+
+                                                <a style="border-radius: 15px;" class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                                
+                                                    <span class="font-weight-bold small text-uppercase">中學組傑出獎 TOP SECONDARY TRACK AWARD</span></a>
+
+                                                <a style="border-radius: 15px;" class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                                    
+                                                    <span class="font-weight-bold small text-uppercase">大專組傑出獎 TOP TERTIARY TRACK AWARD</span></a>
+                                                <a style="border-radius: 15px;" class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                                    
+                                                    <span class="font-weight-bold small text-uppercase">優異獎 AWARD OF MERIT</span></a>    
+
+
+                                            </div>
+                                                
+                                                
+                                        </div>
+
+
+                                        <div style="border-radius: 15px;" class="col-md-9">
+                                            <!-- Tabs content -->
+                                            <div style="border-radius: 15px;" class="tab-content" id="v-pills-tabContent">
+                                                <div style="border-radius: 15px;" class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                                    <h4 class="font-italic mb-4">獎牌獎 MEDALISTS</h4>
+                                                    <p class="font-italic text-muted mb-2"><ol class="mb-2">
+                                                        <p>
+                                                            金、銀、銅獎：每組價值 100,000 港元的開發工具
+                                                            Gold, Silver, Bronze: each 100,000 HKD worth of development tools and consultation
+                                                            <h5>金牌獎 GOLD</h5>
+                                                            香港城市大學： LemonTeam — City University of Hong Kong (CityU)
+                                                            <h5>銀牌獎 SILVER</h5>
+                                                            香港浸會大學： GreenChain — Hong Kong Baptist University (HKBU)
+                                                            <h5>銅牌獎 BRONZE</h5>
+                                                            拔萃女書院： AdmInsulin — Diocesan Girl's School (DGS)
+                                                        </p>
+                                                        
+                                                </div>
+                                                
+                                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                                    <h4 class="font-italic mb-4">主題獎 CATEGORY PRIZES</h4>
+                                                    <p class="font-italic text-muted mb-2"><ol class="mb-2">
+                                                        <p>
+                                                            六種主題獎 Six category prizes for the six categories
+                                                            <h5>法律科技 LAWTECH</h5>
+                                                            1. 最佳法律科技獎（Lawtech Award）<br>
+                                                            <ul><li>香港資優教育學苑、拔萃女書院： MediBlock — Hong Kong Academy for Gifted Education (HKAGE), Diocesan Girl's School (DGS)</li></ul>
+                                                            2.傑出法律科技獎（Lawtech Runner-up）
+                                                            無 (None)
+                                                            <h5> 教育科技 EDTECH</h5>
+                                                            1. 最佳教育科技獎（Edtech Award）<br>
+                                                            <ul><li>拔萃女書院： IMPROOF — Diocesan Girl's School (DGS)</li></ul>
+                                                            2. 傑出教育科技獎（Edtech Runner-up）</li></ul><br>
+                                                            <ul><li>嘉諾撒聖瑪利書院： Acredemic-chain — St Mary's Canossian College (SMCC)</li></ul>
+                                                                <ul><li>香港資優教育學苑、喇沙書院： Blockchain Solution: Job Applications — Hong Kong Academy for Gifted Education (HKAGE), La Salle College (LSC)</li></ul>
+                                                                    <ul><li>香港嶺南大學： Edcube — Lingnan University (LU)</li></ul>
+                                                                        <ul><li>香港城市大學： Inturn — City University of Hong Kong (CityU)</li></ul>
+                                                            <h5> 健康科技 HEALTHTECH</h5>
+                                                            1. 最佳健康科技獎（Healthtech Award）<br>
+                                                            <ul><li>拔萃女書院： AdmInsulin — Diocesan Girl's School (DGS)</li></ul>
+                                                            2. 傑出健康科技獎（Healthtech Runner-up）<br>
+                                                            <ul><li> 拔萃女書院： MedH — Diocesan Girl's School (DGS)</li></ul>
+                                                            <h5>保險科技 INSURTECH</h5>
+                                                            1. 最佳保險科技獎（Insurtech Award）<br>
+                                                            <ul><li> 香港城市大學： LemonTeam — City University of Hong Kong (CityU)</li></ul>
+                                                            2. 傑出保險科技獎（Insurtech Runner-up）<br>
+                                                            <ul><li>香港城市大學： Insurity — City University of Hong Kong (CityU)</li></ul>
+                                                            <h5> 金融科技 FINTECH</h5>
+                                                            1. 最佳金融科技獎（Fintech Award）<br>
+                                                            <ul><li>香港浸會大學： GreenChain — Hong Kong Baptist University (HKBU)</li></ul>
+                                                            2. 傑出金融科技獎（Fintech Runner-up）<br>
+                                                            <ul><li>香港理工大學： Blockarian — The Hong Kong Polytechnic University (PolyU)</li></ul>
+                                                                <ul><li>拔萃女書院： IGAXchange — Diocesan Girl's School (DGS)</li></ul>
+                                                            <h5>政府科技 GOVTECH</h5>
+                                                            1. 最佳政府科技獎（Govtech Award)<br>
+                                                            <ul><li>香港資優教育學苑、培僑書院、香港青年協會李兆基書院： FoodChain — Hong Kong Academy for Gifted Education (HKAGE), Pui Kiu College (PKC), HKFYG Lee Shau Kee College (HKFYGLSKC)</li></ul>
+                                                            2. 傑出政府科技獎（Govtech Runner-up）<br>
+                                                            <ul><li>無 (None)</li></ul>
+
+
+                                                        </p>
+                                                </div>
+                                                
+                                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                                    <h4 class="font-italic mb-4">中學組傑出獎 TOP SECONDARY TRACK AWARD</h4>
+                                                    <p class="font-italic text-muted mb-2"><ol class="mb-2">
+
+                                                        <p>
+                                                            以下隊伍獲得 2022 大灣區區塊鏈奧林匹克中學組傑出獎：
+                                                            The following received the Top Secondary Track Award for the 2022 GBA Blockchain Olympiad:
+
+                                                            <ul><li> 嘉諾撒聖瑪利書院： Acredemic-chain — St Mary's Canossian College (SMCC)</li></ul>
+                                                                <ul><li> 拔萃女書院： AdmInsulin — Diocesan Girl's School (DGS)</li></ul>
+                                                                    <ul><li>香港資優教育學苑、喇沙書院： Blockchain Solution: Job Applications — Hong Kong Academy for Gifted Education (HKAGE), La Salle College (LSC)</li></ul>
+                                                                        <ul><li>拔萃女書院： Ecotex — Diocesan Girl's School (DGS)</li></ul>
+                                                                            <ul><li>香港資優教育學苑、培僑書院、香港青年協會李兆基書院： FoodChain — Hong Kong Academy for Gifted Education (HKAGE), Pui Kiu College (PKC), HKFYG Lee Shau Kee College (HKFYGLSKC)</li></ul>
+                                                                                <ul><li>拔萃女書院： IGAXchange — Diocesan Girl's School (DGS)</li></ul>
+                                                                                    <ul><li> 拔萃女書院： IMProof — Diocesan Girl's School (DGS)</li></ul>
+                                                        </p>
+                                                </div>
+                                                
+                                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                                    <h4 class="font-italic mb-4">大專組傑出獎 TOP TERTIARY TRACK AWARD</h4>
+                                                    <p class="font-italic text-muted mb-2"><ol class="mb-2">
+
+                                                        <p>
+                                                            以下隊伍獲得 2022 大灣區區塊鏈奧林匹克大專組傑出獎：
+                                                            The following earned the Top Tertiary Track Award for the 2022 GBA Blockchain Olympiad:
+
+                                                            <ul><li> 香港理工大學： Blockarian — The Hong Kong Polytechnic University (PolyU)</li></ul>
+                                                                <ul><li> 香港嶺南大學： Edcube — Lingnan University (LU)</li></ul>
+                                                                    <ul><li> 香港中文大學： Exit Liquidity — The Chinese University of Hong Kong (CUHK)</li></ul>
+                                                                        <ul><li> 香港中文大學： Fintechometry — The Chinese University of Hong Kong (CUHK)</li></ul>
+                                                                            <ul><li> 香港浸會大學： GreenChain — Hong Kong Baptist University (HKBU)</li></ul>
+                                                                                <ul><li> 香港城市大學： Insurity — City University of Hong Kong (CityU)</li></ul>
+                                                                                    <ul><li> 香港城市大學： LemonTeam — City University of Hong Kong (CityU)</li></ul>
+                                                        </p>
+                                                </div>
+
+
+                                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                                                    <h4 class="font-italic mb-4">優異獎 AWARD OF MERIT</h4>
+                                                    <p class="font-italic text-muted mb-2"><ol class="mb-2">
+                                                        <p>
+                                                            優異獎（Award of Merit）：價值10,000 港元的開發工具
+                                                            Awards of Merit: each 10,000 HKD worth of resources for projects deemed to have satisfied the minimum of a complete blockchain solution design for a student level
+
+                                                            <ul><li>  嘉諾撒聖瑪利書院： Acredemic-chain — St Mary's Canossian College (SMCC)</li></ul>
+                                                                <ul><li>  拔萃女書院： AdmInsulin — Diocesan Girl's School (DGS)</li></ul>
+                                                                    <ul><li>  香港理工大學： Blockarian — The Hong Kong Polytechnic University (PolyU)</li></ul>
+                                                                        <ul><li> 香港資優教育學苑、喇沙書院： Blockchain Solution: Job Applications — Hong Kong Academy for Gifted Education (HKAGE), La Salle College (LSC)</li></ul>
+                                                                            <ul><li> 拔萃女書院： Ecotex — Diocesan Girl's School (DGS)</li></ul>
+                                                                                <ul><li> 香港嶺南大學： Edcube — Lingnan University (LU)</li></ul>
+                                                                                    <ul><li> 香港中文大學： Exit Liquidity — The Chinese University of Hong Kong (CUHK)</li></ul>
+                                                                                        <ul><li> 香港資優教育學苑、培僑書院、香港青年協會李兆基書院： FoodChain — Hong Kong Academy for Gifted Education (HKAGE), Pui Kiu College (PKC), HKFYG Lee Shau Kee College (HKFYGLSKC)</li></ul>
+                                                                                            <ul><li> 香港浸會大學： GreenChain — Hong Kong Baptist University (HKBU)</li></ul>
+                                                                                                <ul><li> 拔萃女書院： IGAXchange — Diocesan Girl's School (DGS)</li></ul>
+                                                                                                    <ul><li> 拔萃女書院： IMProof — Diocesan Girl's School (DGS)</li></ul>
+                                                                                                        <ul><li> 香港理工大學： Innotar — The Hong Kong Polytechnic University (PolyU)</li></ul>
+                                                                                                            <ul><li> 香港城市大學： Insurity — City University of Hong Kong (CityU)</li></ul>
+                                                                                                                <ul><li> 香港城市大學： Inturn — City University of Hong Kong (CityU)</li></ul>
+                                                                                                                    <ul><li> 香港城市大學： LemonTeam — City University of Hong Kong (CityU)</li></ul>
+                                                                                                                        <ul><li> 拔萃女書院： MedH — Diocesan Girl's School (DGS)</li></ul>
+                                                                                                                            <ul><li> 香港資優教育學苑、拔萃女書院： MediBlock — Hong Kong Academy for Gifted Education (HKAGE), Diocesan Girl's School (DGS)</li></ul>
+                                                                                                                                <ul><li> 香港資優教育學苑、拔萃女書院： MediBlock — Hong Kong Academy for Gifted Education (HKAGE), Diocesan Girl's School (DGS)</li></ul>
+                                                                                                                                    <ul><li> 伊利沙伯中學： Pai-Money — Queen Elizabeth School (QES)</li></ul>
+                                                                                                                                        <ul><li> 伊利沙伯中學： RootChain — Queen Elizabeth School (QES)</li></ul>
+                                                                                                                                            <ul><li> 香港資優教育學苑、拔萃女書院： SourceTracer — Hong Kong Academy for Gifted Education (HKAGE), King’s College (KC), PLK Centenary Li Shiu Chung Memorial College (PLKCLSCMC)</li></ul>
+                                                        </p>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <div class="card-body pt-0" style="margin-left: 10%; margin-right: 10%;">
+
+
+                                <div class="">
+                                    <h5 >Gold medalist - LemonTeam, City University of Hong Kong (CityU): </h5>
+
+                                    <p>
+                                    
+                                    來自香港城市大學 (城大 CityU) 的金牌得主 LemonTeam 提出了一個名為 LemonT 的汽車服務和所有權記錄系統，該系統整合了各種數據源，以保證數據的完整性並抑制欺詐行為，但數據所有權無疑始終屬於車主。<br><br>
+
+                                    Gold medalist LemonTeam from the City University of Hong Kong (CityU) proposed a car service and ownership record system called LemonT, which integrates various data sources to guarantee data integrity and disincentivize fraudulent behaviour, yet data ownership is indisputably always with the car owner.
+                                        
+                                    </p>
+
+                                    
+                                    <h5 class="" >Silver medalist - GreenChain, Hong Kong Baptist University (HKBU) </h5>
+                                   <p>
+                                    來自香港浸會大學（浸大 HKBU）的銀牌得主GreenChain提出了一個供應鏈金融系統Paratag，旨在將ESG評分整合到中小型企業（SME）的信用風險評估過程中，以發展可持續的供應鏈金融系統。<br><br>
+
+                                    Silver medalist GreenChain from Hong Kong Baptist University (HKBU) proposed a supply chain finance system Paratag, which aims to integrate ESG scores into the credit risk assessment process of small-to-medium enterprises (SMEs) to develop a sustainable supply chain finance system. 
+                        
+                                   </p>
+
+                                   <h5 class="" >Bronze medalist - Adminsulin, Diocesan Girls’ School (DGS) </h5>
+
+                                   <p>
+                                    拔萃女書院 (DGS) 銅獎得主 Adminsulin 提出了一個為解決劣質和假冒胰島素問題量身定制的供應鏈系統，將人工智能和機器學習 (ML) 相結合，用於模式識別、物聯網 (IoT)用於跟踪和隱私增強技術 (PET)，讓醫療保健提供者和患者就胰島素做出明智的決定。<br><br>
+                                    Bronze medalist Adminsulin from the Diocesan Girls’ School (DGS) proposed a supply chain system tailor-made for addressing the issue of substandard and counterfeit insulin, combining AI and machine learning (ML) for pattern recognition, internet-of-things (IoT) for tracking, and privacy-enhancing technology (PET) to let healthcare providers and patients make informed decisions concerning insulin. 
+                                   </p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="enroll posWithLeftBox d-none d-md-block" onclick="location.href='https://bit.ly/goskills_user_guide';">
+                            Enroll
+                        </div> -->
+                    </div>
+                </div>
+            </div>  
+</section>
+
+<br>
+
+
+
+
+
+<!--End-->
+
+
+
+<footer class="paddingAdjustedFooter">
+    <div class="ss-go-top"></div>
+    <div class="row">
+
+        <!-- Leftmost -->
+        <div class="col-md-4 col-sm-4 mt-3 ">
+            <div class="footerHeaderText"><b>About Us</b></div>
+            <p class="footerParaText">The International Blockchain Olympiad (IBCOL) is an annual global competition inviting current and recent students to propose solutions for real-world problems with blockchain technology</p>
+        </div>
+        <!-- Middle -->
+        <div class="col-md-4 col-sm-4 mt-3 ">
+            <div class=" footerHeaderText"><b>Follow Us</b></div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="footerParaText">Follow the International Blockchain Olympiad (IBCOL) on the follow social media channels</p>
+                </div>
+                <br>
+                <div class="col-12 ">
+                    <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg" src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
+                    <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg" src="./images/sm/tt.png"></a>&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg" src="./images/sm/fb.png"></a>&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg" src="./images/sm/li.png"></a>&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+        <!-- Rightmost -->
+        <div class="col-md-4 col-sm-4 mt-3">
+            <div class=" footerHeaderText"><b>Contact Us</b></div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="footerParaText mb-4">Hong Kong Blockchain Olympiad<br><a href=""><b>hk@ibcol.org</b></a></p>
+                </div>
+                <div class="col-12">
+                    <p class="footerParaText">2022 International Blockchain Olympiad<br><a href="https://ibcol.org/"><b>ibcol.org</b></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-full ss-copyright mt-5 colorWt2">
+            Copyright © 2016-2022 International Blockchain Olympiad. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Java Script
+        ================================================== -->
+
+        <script>
+            $('.accordion-button').click(function () {
+                $(this).find('i').toggleClass('fas fa-plus fas fa-minus')
+            });
+        </script>
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/function.js"></script>
+        <script src="./js/openInNewTab.js"></script>
+        <script src="./js/clickToEnlarge.js"></script>
+    </body>
+    </html>

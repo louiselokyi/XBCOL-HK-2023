@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Finals | HK-BCOL 2021 Hong Kong Blockchain Olympiad | IBCOL 2021
+      International Blockchain Olympiad
+    </title>
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+      button:focus {
+        outline-color: black;
+      }
+    </style>
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <link
+      rel="icon"
+      href="./images/logo/IBCOL-HK.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <meta
+      name="description"
+      content="The Hong Kong Blockchain Olympiad (HK-BCOL) is the local blockchain olympiad committee working with some academic and industry professionals in Hong Kong. We sent a delegation of 9 teams to IBCOL 2019. For IBCOL 2021, the HK-BCOL will select up to 12 projects to represent Hong Kong."
+    />
+    <meta name="author" content="HKBCOL 2021 Hong Kong Blockchain Olympiad" />
+    <meta property="og:image" content="./images/logo/IBCOL-HK.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        </script> -->
+
+    <link rel="stylesheet" href="./css/base-2.css" />
+    <link rel="stylesheet" href="./css/vendor-2.css" />
+    <link rel="stylesheet" href="./css/main-2.css" />
+    <link rel="stylesheet" href="./css/gbRemake-2.css" />
+    <link rel="stylesheet" href="./css/dropDown-2.css" />
+    <link rel="stylesheet" href="./css/how-to-join-2.css" />
+    <link rel="stylesheet" href="./css/clickToEnlarge-2.css" />
+    <link rel="stylesheet" href="./css/rowController-2.css" />
+    <link rel="stylesheet" href="./css/chapters.css" />
+
+    <script src="./js/modernizr.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .responsive {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body id="top">
+    <div id="preloader">
+      <div id="loader" class="dots-jump">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <header class="s-header">
+      <!-- Site Logo -->
+      <div class="header-logo">
+        <a class="site-logo" href="index.html">
+          <img
+            src="images/logo/resized/IBCOL HK Horizontal.png"
+            alt="IBCOL: International Blockchain Olympiad"
+          />
+        </a>
+      </div>
+      <!-- Navigation bar for wide screens -->
+      <div class="desktop-nav" style="padding-top: 20px">
+        <ul class="nav_list">
+          <li>
+            <a class="NavLinkComponent desktop-nav-link" href="./about.html"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="NavLinkComponent desktop-nav-link" href="./rules.html"
+              >Rules</a
+            >
+          </li>
+          <li>
+            <a class="NavLinkComponent desktop-nav-link" href="./workshops.html"
+              >Workshops</a
+            >
+          </li>
+          <li>
+            <a
+              class="NavLinkComponent desktop-nav-link"
+              href="./micro-consulting-day.html"
+              >Micro-consulting Day</a
+            >
+          </li>
+          <li>
+            <a
+              class="NavLinkComponent desktop-nav-link-active"
+              href="./hkbcol-2021-finals.html"
+              >HKBCOL 2021 Finals</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Navigation bar for mobile screens -->
+      <a class="header-menu-toggle" href="#"
+        ><span class="header-menu-icon"></span
+      ></a>
+      <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"
+          ><span>Close</span></a
+        >
+        <div class="header-nav__content">
+          <ul class="header-nav__list">
+            <li>
+              <h2 class="my-0">
+                <a class="NavLinkComponent" href="./index.html">About</a>
+              </h2>
+            </li>
+            <li>
+              <h2 class="my-0">
+                <a class="NavLinkComponent" href="./rules.html">Rules</a>
+              </h2>
+            </li>
+            <li>
+              <h2 class="my-0">
+                <a class="NavLinkComponent" href="./workshops.html"
+                  >Workshops</a
+                >
+              </h2>
+            </li>
+            <li>
+              <h2 class="my-0">
+                <a class="NavLinkComponent" href="./micro-consulting-day.html"
+                  >Micro-Consulting</a
+                >
+              </h2>
+            </li>
+            <li>
+              <h2 class="my-0">
+                <a class="NavLinkComponent" href="./hkbcol-2021-finals.html"
+                  >HK 2021 Finals</a
+                >
+              </h2>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="s-section target-section topSection">
+      <!-- Head -->
+      <div class="container-fluid mh-100v" style="background-color: #f7f7f7">
+        <div class="row section-header">
+          <div class="col-12 my-5 py-5rem">
+            <h1 class="mb-0 headerText text-black">HKBCOL 2021 Finals</h1>
+            <p
+              class="
+                mb-0
+                text-center text-black text-light-black
+                underHeaderText
+              "
+              style="font-size: 20px !important"
+            >
+              All Hong Kong Regional Competition and Exhibition
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Body -->
+      <div
+        class="container-fluid colorBk mt-2"
+        style="padding-top: 0px; padding-bottom: 80px"
+      >
+        <div class="row justify-content-center mt-5">
+          <!-- Abstract -->
+          <div class="col-md-10 col-sm-12">
+            <p>
+              Sponsored by HSBC and hosted by the City University of Hong Kong
+              and the Hong Kong Blockchain Society, the
+              <b>2021 Hong Kong Blockchain Olympiad</b> or HKBCOL 2021 is the
+              final destination of a journey of a thousand proverbial miles, as
+              literally thousands of students from Hong Kong's high schools,
+              colleges, and universities learned about blockchain from
+              technological and cryptographic fundamentals to architecture and
+              solution design throughout the Fall 2020 and Winter 2021
+              Semesters.
+            </p>
+            <p>
+              After hours of training and events, students were invited to apply
+              their learnings into a cumulative proposal, in the form of papers,
+              posters, and pitch presentations. With 60 submissions split a
+              third from secondary schools and the rest from tertiary
+              institutions, HKBCOL 2021 is the most competitive edition in the
+              history of the initiative in Hong Kong.
+            </p>
+          </div>
+
+          <!-- Prizes -->
+          <div class="col-md-10">
+            <h4 class="mb-2 mt-0">Prizes</h4>
+            For each level of competition — the secondary and tertiary tiers —
+            there are four prizes and one categorical prize:
+            <ol>
+              <li>
+                The <b>Gold Medal</b> is awarded to the project with highest
+                overall score;
+              </li>
+              <li>
+                The <b>Silver Medal</b> is awarded to the project with 2nd
+                highest overall score;
+              </li>
+              <li>
+                The <b>Bronze Medal</b> is awarded to the project with 3rd
+                highest overall score;
+              </li>
+              <li>
+                The <b>Best Prototype</b> is awarded to the project with the
+                best demonstration of their project;
+              </li>
+              <li>
+                The <b>Award of Merit</b> is awarded to all projects with a
+                complete solution design, which would be considered a winner of
+                the HKBCOL 2021 and a potentially winning solution in the real
+                world.
+              </li>
+            </ol>
+            <p>The prize money is sponsored by HSBC.</p>
+          </div>
+
+          <!-- Judges -->
+          <div class="col-md-10">
+            <h4 class="mb-2 mt-0">Adjudicators</h4>
+            For HKBCOL 2021, the following judges have been invited to evaluate
+            projects:
+            <ul class="mb-2">
+              <li>
+                Dr. Prof. Ray Chak-Chung Cheung (張澤松), CityU, Associate
+                Professor, Department of Electrical Engineering
+              </li>
+              <li>
+                Dr. Prof. Michael Wong (王澤森), CityU, Associate Professor
+              </li>
+              <li>
+                Dr. Prof. Eric Chi-Lik Lo (盧至力), CUHK, Associate Professor,
+                Computer Science and Engineering (CSE)
+              </li>
+              <li>
+                Dr. Prof. CK Chan (陳俊光), CUHK, Professor of Practice,
+                Financial Technology
+              </li>
+              <li>
+                Dr. Prof. Jiming Li (劉際明), HKBU, Chair Professor in Computer
+                Science, IEEE Fellow
+              </li>
+              <li>
+                Dr. Prof. Aristotelis Stouraitis, HKBU, Head, Department of
+                Finance and Decision Sciences, Director, CCGFP
+              </li>
+              <li>
+                Dr. Prof. Connie Leung (梁慕琪), HKBU, Programme Director, MSc
+                Finance (Fintech & Financial Analytics)
+              </li>
+              <li>
+                Dr. Prof. KP Chow (鄒錦沛), HKU, BASc (FinTech) Programme
+                Coordinator; MSc (CompSc) Programme Director
+              </li>
+              <li>
+                Dr. Prof. John Yuen (阮子瀚), HKU, Assistant Professor, Computer
+                Science
+              </li>
+              <li>
+                Dr. Prof. Cunsheng Ding (丁存生), HKUST, Program Director, MSc
+                Information Technology
+              </li>
+              <li>
+                Dr. Prof. Lei Chen 陳雷, HKUST, Chair Professor, Director of
+                HKUST Big Data Institute
+              </li>
+              <li>
+                Dr. Prof. Dimitris Papadopoulos, HKUST, Assistant Professor,
+                Computer Science and Engineering
+              </li>
+              <li>
+                Dr. Prof. Qing Li (黎擎), HKUST, Professor, Operations
+                Management
+              </li>
+              <li>
+                Dr. Prof. Man-Leung Wong (黃文亮), Lingnan, Assoc. Professor &
+                Head of Dept. of Computing and Decision Sciences
+              </li>
+              <li>
+                Dr. Prof. Angus Ho-Yin Law (羅浩然), THEi, Teaching Fellow
+              </li>
+            </ul>
+            <p>
+              Adjudicators will not know which academic institution the projects
+              are affiliated with, for additional impartiality in evaluations.
+            </p>
+          </div>
+
+          <!-- Schedule -->
+          <div class="col-md-10">
+            <h4 class="mb-2 mt-0">Schedule on Saturday 19 June 2021</h4>
+            <div class="row" style="margin-left: 3.7rem">
+              <table style="width: fit-content">
+                <tr>
+                  <th style="width: 14rem">Time</th>
+                  <th>Agenda Items</th>
+                  <th>Virtual Location</th>
+                </tr>
+                <tr>
+                  <td>09:15 - 09:35</td>
+                  <td>Reception and Networking</td>
+                  <td>
+                    <a href="https://discord.com/download">Discord</a>
+                    (Networking Lounges)
+                  </td>
+                </tr>
+                <tr>
+                  <td>09:35 - 09:55</td>
+                  <td>Opening Ceremony by CityU, HKBCS</td>
+                  <td>
+                    <a href="https://zoom.us/download">Zoom</a> (Main Stage)
+                  </td>
+                </tr>
+                <tr>
+                  <td>10:00 - 13:00</td>
+                  <td>Evaluation of Finalists' Projects</td>
+                  <td>
+                    <a href="https://zoom.us/download">Zoom</a> (Main Stage
+                    &amp; Side Stage)
+                  </td>
+                </tr>
+                <tr>
+                  <td>13:30 - 16:30</td>
+                  <td>Lunch/Tea-Time and Expo</td>
+                  <td>
+                    <a href="https://discord.com/download">Discord</a> (Project
+                    Rooms)
+                  </td>
+                </tr>
+                <tr>
+                  <td>15:00 - 15:30</td>
+                  <td>Panel: Decentralized Finance and Non-Fungible Tokens</td>
+                  <td>
+                    <a href="https://zoom.us/download">Zoom</a> (Main Stage)
+                  </td>
+                </tr>
+                <tr>
+                  <td>16:00 - 16:30</td>
+                  <td>Panel: Blockchain Careers and Opportunities</td>
+                  <td>
+                    <a href="https://zoom.us/download">Zoom</a> (Main Stage)
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>16:35 - 17:30</td>
+                  <td>
+                    Closing Ceremony and Awards Presentation by HSBC, CityU,
+                    HKBCS, HKBCOL, IBCOL
+                  </td>
+                  <td>
+                    <a href="https://zoom.us/download">Zoom</a> (Main Stage)
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="w-100 text-center mt-5 mb-5">
+      <p class="mb-1">
+        For inquiries, please contact us via the
+        <a href="http://ibcol-hk.slack.com/signup" target="_blank"
+          >Official HKBCOL Community</a
+        >
+        on <a href="https://slack.com/download">Slack</a> or by email
+        <u>hk@ibcol.org</u>
+      </p>
+      <!-- <button type="button" onclick="openInNewTab('https://forms.gle/AZEJ1F9R5NWRoD7v6');" class="btn btn-primary blueBg btn-stu indexBlueActionBtn">Register to Attend HKBCOL 2021 Finals</button> -->
+    </div>
+
+    <footer class="paddingAdjustedFooter">
+      <div class="ss-go-top"></div>
+      <div class="row">
+        <!-- Leftmost -->
+        <div class="col-md-4 col-sm-4 mt-3">
+          <div class="footerHeaderText"><b>About Us</b></div>
+          <p class="footerParaText">
+            The International Blockchain Olympiad (IBCOL) is an annual global
+            competition inviting current and recent students to propose
+            solutions for real-world problems with blockchain technology
+          </p>
+        </div>
+        <!-- Middle -->
+        <div class="col-md-4 col-sm-4 mt-3">
+          <div class="footerHeaderText"><b>Follow Us</b></div>
+          <div class="row">
+            <div class="col-12">
+              <p class="footerParaText">
+                Follow the International Blockchain Olympiad (IBCOL) on the
+                follow social media channels
+              </p>
+            </div>
+            <br />
+            <div class="col-12">
+              <a href="https://www.instagram.com/ibcol_org" target="_blank"
+                ><img class="media768FooterImg" src="./images/sm/ig.png" /></a
+              >&nbsp;&nbsp;&nbsp;
+              <a
+                href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg"
+                target="_blank"
+                ><img class="media768FooterImg" src="./images/sm/yt.png" /></a
+              >&nbsp;&nbsp;
+              <a href="https://twitter.com/ibcolorg" target="_blank"
+                ><img class="media768FooterImg" src="./images/sm/tt.png" /></a
+              >&nbsp;&nbsp;
+              <a href="https://www.facebook.com/ibcol.org" target="_blank"
+                ><img class="media768FooterImg" src="./images/sm/fb.png" /></a
+              >&nbsp;&nbsp;
+              <a href="https://www.linkedin.com/company/ibcol" target="_blank"
+                ><img class="media768FooterImg" src="./images/sm/li.png" /></a
+              >&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+        <!-- Rightmost -->
+        <div class="col-md-4 col-sm-4 mt-3">
+          <div class="footerHeaderText"><b>Contact Us</b></div>
+          <div class="row">
+            <div class="col-12">
+              <p class="footerParaText mb-4">
+                Hong Kong Blockchain Olympiad<br /><a href=""
+                  ><b>hk@ibcol.org</b></a
+                >
+              </p>
+            </div>
+            <div class="col-12">
+              <p class="footerParaText">
+                2021 International Blockchain Olympiad<br /><a href=""
+                  ><b>2021@ibcol.org</b></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-full ss-copyright mt-5 colorWt2">
+          Copyright © 2016-2021 International Blockchain Olympiad. All rights
+          reserved.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Java Script
+        ================================================== -->
+
+    <script>
+      $(".accordion-button").click(function () {
+        $(this).find("i").toggleClass("fas fa-plus fas fa-minus");
+      });
+    </script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/function.js"></script>
+    <script src="./js/openInNewTab.js"></script>
+    <script src="./js/clickToEnlarge.js"></script>
+  </body>
+</html>

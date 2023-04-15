@@ -1,0 +1,100 @@
+.text-light-black {
+  color: #635d5d !important;
+}
+
+.mh-100v {
+  min-height: 20vh;
+}
+
+.py-5rem {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.s-section {
+  padding-top: 3rem;
+}
+
+.accordion-collapse {
+  border: solid rgba(0, 0, 0, 0.125);
+  
+  border-width: 0px 0px 2px;
+}
+
+.headerText {
+  margin-top: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 29px;
+  text-align: center;
+}
+
+.headerText2 {
+  font-size: 28px;
+  
+  
+}
+
+.underHeaderText {
+  font-size: 1.3rem;
+}
+
+.underHeaderText2 {
+  font-size: 1.2rem;
+  /* color: darkred; */
+}
+
+.footerText {
+  font-size: 1.4rem;
+}
+
+.accordion-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100% !important;
+   border-bottom: 1px solid rgb(213, 213, 213) ;
+}
+
+.accordion-button {
+  background-color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  border-color: rgb(255, 254, 254);
+  /* margin-bottom: 0px; */
+  /* box-shadow: 2px 2px 1px #c7c7c7; */
+  width: 100% !important;
+ 
+}
+
+.accordion-body {
+  margin-bottom: 1.2rem;
+}
+
+.accordion-body .schoolName {
+  font-size: 1.6rem;
+  margin-left: 24px;
+}
+.accordion-body .schoolEmail {
+  font-size: 1rem;
+  color: #434343 !important;
+  margin-left: 24px;
+}
+
+.s-section h2 {
+  padding: 0;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+  .mt-700-50px {
+    margin-top: 50px !important;
+  }
+  .mb-700-50px {
+    margin-bottom: 50px !important;
+  }
+}
+
+.display-4 {
+  color: rgb(59, 59, 59);
+}
