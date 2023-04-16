@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>HK-BCOL 2022 Hong Kong Blockchain Olympiad | IBCOL 2022 International Blockchain Olympiad</title>
+    <title>HK-BCOL 2023 Hong Kong Blockchain Olympiad | IBCOL 2023 International Blockchain Olympiad</title>
     <link rel="icon" href="./images/logo/IBCOL-HK.png" type="image/gif" sizes="16x16" />
     <meta name="description"
-        content="The Hong Kong Blockchain Olympiad (HK-BCOL) is the local blockchain olympiad committee working with some academic and industry professionals in Hong Kong. For IBCOL 2022, the HK-BCOL will select up to 12 projects to represent Hong Kong." />
-    <meta name="author" content="HKBCOL 2022 Hong Kong Blockchain Olympiad" />
+        content="The Hong Kong Blockchain Olympiad (HK-BCOL) is the local blockchain olympiad committee working with some academic and industry professionals in Hong Kong. For IBCOL 2023, the HK-BCOL will select up to 12 projects to represent Hong Kong." />
+    <meta name="author" content="HKBCOL 2023 Hong Kong Blockchain Olympiad" />
     <meta property="og:image" content="./images/logo/IBCOL-HK.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,11 +20,17 @@
     <link rel="stylesheet" href="./css/main-2.css" />
     <link rel="stylesheet" href="./css/gbRemake-2.css" />
     <link rel="stylesheet" href="./css/dropDown-2.css" />
+    <link rel="stylesheet" href="./css/clickToEnlarge-2.css" />
+    <link rel="stylesheet" href="./css/rowController-2.css" />
+    <link rel="stylesheet" href="./css/chapters.css" />
 
     <script src="./js/modernizr.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
 
     <style>
         html {
@@ -53,13 +59,20 @@
         <div class="desktop-nav" style="padding-top: 20px">
             <ul class="nav_list">
                 <li><a class="NavLinkComponent desktop-nav-link-active" href="./about.html">About</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="./rules.html">Rules</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="./resources.html">Resources</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="./ideathon.html">Ideathon</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="./gba.html">GBA</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./secondary.html">Secondary</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./tertiary.html">Tertiary</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./caseStudies.html">Case Studies</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./specialEvents.html">Special Events</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">How to Apply ▾</a>
+                    <div class="dropdown-content">
+                        <a href="./faq.html">FAQ</a>
+                        <a href="./workshops.html">Workshops</a>
+                        <a href="./resources.html">Resources</a>
+                    </div>
+                </li>
                 <li><a class="NavLinkComponent desktop-nav-link" href="./results.html">Results</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="./faq.html">FAQ</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="https://passport.IBCOL.org/">Register</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./registration.html">Register</a></li>
                 <li><a class="NavLinkComponent desktop-nav-link" href="./contact.html">Contact</a></li>
                 
                 
@@ -72,13 +85,19 @@
             <div class="header-nav__content">
                 <ul class="header-nav__list">
                     <li><h2 class="my-0"><a class="NavLinkComponent" href="./index.html">About</a></h2></li>
-                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./rules.html">Rules</a></h2></li>
-                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./resources.html">Resources</a></h2></li>
-                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./ideathon.html">Ideathon</a></li>
-                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./gba.html">GBA</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./secondary.html">Secondary</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./tertiary.html">Tertiary</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./caseStudies.html">Case Studies</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./specialEvents.html">Special Events</a></li>
+                    <li>
+                        <h2 class="text-white my-0">- How to Apply ▾</h2>
+                    </li>
+                    <li><a class="NavLinkComponent" href="./faq.html">FAQ</a></li>
+                    <li><a class="NavLinkComponent" href="./workshops.html">Workshops</a></li>
+                    <li><a class="NavLinkComponent" href="./resources.html">Resources</a></li>
+
                     <li><h2 class="my-0"><a class="NavLinkComponent" href="./results.html">Results</a></li>
-                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./faq.html">FAQ</a></h2></li>
-                    <li><h2 class="my-0"><a class="NavLinkComponent" href="https://passport.IBCOL.org/">Register</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./registration.html">Register</a></h2></li>
                     <li><h2 class="my-0"><a class="NavLinkComponent" href="./contact.html">Contact</a></h2></li>
                     
                 
@@ -91,16 +110,16 @@
 
     <section class="hero-section-1"></section>
     <div style="width: 100%">
-        <div class="header-small-text">HKBCOL 2022 has combined into</div>
+        <div class="header-small-text">HKBCOL 2023 has combined into</div>
         <div class="header-big-text">The first in history Blockchain Olympiad</div>
         <div class="header-big-text">in the Greater Bay Area</div>
         <div class="container">
             <div class="row">
               <div class="col text-center">
                   <br>
-                    <!--<a class="broder-radius-8px btn btn--primary mx-10" style="width: 50%;text-align: center" href="https://passport.IBCOL.org/verify-registration/" >Register</a>-->
+                    <!--<a class="broder-radius-8px btn btn--primary mx-10" style="width: 50%;text-align: center" href="./registration.html" >Register</a>-->
                     
-                    <button onclick="window.location.href='https://passport.IBCOL.org/';" type="button" class="broder-radius-8px btn btn-primary blueBg" style="text-transform: capitalize;font-size: 20px;font-weight:normal;">
+                    <button onclick="window.location.href='./registration.html';" type="button" class="broder-radius-8px btn btn-primary blueBg" style="text-transform: capitalize;font-size: 20px;font-weight:normal;">
                         Register
                         </button>
                     
@@ -151,7 +170,7 @@
         <div class="row section-header">
             <div class="photoTitle" style="padding-left: 14px">
                 <h2 style="all: unset; margin-bottom: 80px; margin-top: 80px">
-                    About
+                    Competition Synopsis
                 </h2>
             </div>
         </div>
@@ -162,11 +181,19 @@
             </div>
             <div class="col-md-6 col-sm-12">
                 <p class="home-about__text">
-                    The Hong Kong Blockchain Olympiad (HKBCOL) is an annual competition inviting current and recent students to propose solutions to real-world problems using blockchain technology. The Olympiad combines the practicality of a traditional case competitions with the open-ended problem-solving culture of hack-a-thons. As a team of up to 5 students, competitors submit their case using an academic conference style white-paper along with a pitch and presentation deck.<br><br>
-                    This year, the Hong Kong Blockchain Olympiad will merge with the Macau Blockchain Olympiad and China Blockchain Olympiad, to host the first every Blockchain Olympiad in the Greater Bay Area. Instead of competing in their own regional Olympiad, competitors from all three regions will submit and compete in one big cross regional Olympiad. <br><br>
-                    High performing teams from this IBCOL in GBA finals will then be invited to compete in the International Blockchain Olympiad where they are pitted against the very best from around the world.<br><br>
-                    <span class="home-about__reg_text">No registration or participation costs.</span>
+                    The international blockchain Olympiad is an annual student competition that challenges students to seek out a real-world problem that could be solved with a blockchain-enabled solution.<br><br>
+                    The objective of the competition is to provide students and young professionals for correct and complete blockchain solutions, the opportunity to showcase their knowledge and abilities in blockchain technology, gain valuable experience, and potentially win prizes or recognition for their work.<br><br> 
+                    International Blockchain Olympiad was founded in 2017. Quietly growing into its 6th year, the International Blockchain Olympiad hosts its 2023 finals in Amsterdam.<br><br>
+                    We’re looking to cultivate the next generation of entrepreneurs. You are welcome to join IBCOL competition if you:<br>
+                    <ul>
+                        <li>Have an innovative idea aligned with the 17 Sustainable Development Goals.</li>
+                        <li>Any <b>Current Student</b> studying at a secondary/tertiary academic institution;<br>
+                            <b>OR</b><br>
+                            Any <b>Recent Student College</b> or <b>University Students</b> of a tertiary academic institution within and including up to three (3) years since graduation or hiatus.</li>
+                        <li>Have a team composed of 1 to 6 eligible students in a group.</li>
+                    </ul>
                 </p>
+
             </div>
         </div>
     </section>
@@ -175,7 +202,7 @@
         <div class="row section-header">
             <div class="photoTitle" style="padding-left: 14px">
                 <h2 style="all: unset; margin-bottom: 60px; margin-top: 30px">
-                    Why Compete?
+                    Why Join?
                 </h2>
             </div>
         </div>
@@ -183,7 +210,25 @@
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <p class="home-about__text">
-                    As we move into an ever growing online world, students will find themselves in a job market where blockchain will be generating over HK$24 trillion by 2030 across all industry verticals. The Blockchain Olympiad offers not only a strong foundation for these pathways but also valuable experience in critical thinking and problem solving.
+                    <ul>
+                        <li><b>Future proof Skills for Self and Society</b>
+                            <ol>
+                                <li>Blockchain technology is a rapidly evolving field with the potential to revolutionize various industries and applications. As students, you have the opportunity to help shape this exciting and dynamic industry. In this competition, you can future-proof your skills and gain valuable experience in a field that is poised to grow rapidly in the coming years.</li>
+                                <li>Participating in this challenge is a great way to showcase your knowledge and abilities, and network with industry experts and professionals. Additionally, these events can help you stay up-to-date with the latest developments and best practices in the industry, and gain exposure to a wide range of blockchain projects and applications. So, if you're passionate about blockchain technology, don't hesitate to get involved and start making your mark in this exciting and innovative field!</li>
+                            </ol>
+                        </li>
+                        <li><b>Certifications</b>
+                            <ol>
+                                <li>20 teams will be shortlisted to proceed to the final round of competition hosted in Amsterdam. Top 3 will be presented with Gold, Silver and Bronze Medals. Distinction awards will be given to those who demonstrate exceptional knowledge and skills in blockchain technology, and merit awards will be given to those who show promise and potential in the field.</li>
+                                <li>If you have an idea, participating in the competition is a great way to present and exchange ideas, and potentially gaining recognition for your work!</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <div class="w-100 text-center mt-5">
+                        <button onclick="window.location.href='./resources.html';" type="button" class="broder-radius-8px btn btn-primary blueBg" style="text-transform: capitalize;font-size: 20px;font-weight:normal;">
+                            Briefing Session
+                            </button>
+                    </div>
                 </p>
             </div>
         </div>
@@ -211,13 +256,85 @@
         <div class="row section-header">
             <div class="photoTitle" style="padding-left: 14px">
                 <h2 style="all: unset; margin-bottom: 45px; margin-top: 30px">
-                    How to compete?
+                    Key Dates
                 </h2>
             </div>
         </div>
         
             <div class="container">
-        <img src="images/process.jpg" alt="Process"></div>
+        <img src="images/KeyDates.png" alt="KeyDates">
+        </div>
+
+        <section class="s-section target-section" style="background-color: #fff">
+            <div class="row section-header">
+                <div class="photoTitle" style="padding-left: 14px">
+                    <h2 style="all: unset; margin-bottom: 60px; margin-top: 30px">
+                        Workshops
+                    </h2>
+                </div>
+            </div>
+    
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <p class="home-about__text">
+                        To support and prepare potential participants of IBCOL, there will be online courses running through April to November 2023. The courses will be delivered in two phases: beginner (April - July 2023) and advanced level (August - November 2023). Stay tuned!
+                        <ul>
+                            <li>For Schools</li>
+                            <li>For Students</li>
+                            <li>For Teachers</li>
+                        </ul>
+                        <div class="w-100 text-center mt-5">
+                            <button onclick="window.location.href='./workshops.html';" type="button" class="broder-radius-8px btn btn-primary blueBg" style="text-transform: capitalize;font-size: 20px;font-weight:normal;">
+                                Beginner & Advanced Courses
+                                </button>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
+            <section class="s-section target-section" style="background-color: #fff">
+                <div class="row section-header">
+                    <div class="photoTitle" style="padding-left: 14px">
+                        <h2 style="all: unset; margin-bottom: 60px; margin-top: 30px">
+                            Sponsors and Supporting Organisations
+                        </h2>
+                    </div>
+                </div>
+        
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <p class="home-about__text">IBCOL offers a unique opportunity for students to showcase their skills and innovative ideas in the field of blockchain technology. IBCOL partners with academic institutions to provide access to facilities, resources, and expertise to help participants develop and refine their ideas. IBCOL also partners with companies to access funding, mentorship, and real-world insights to help participants turn their ideas into viable products or services. By working together, these partners have helped to support IBCOL to drive growth and promote the wider adoption of blockchain technology at international level.</p>  
+                    </div>
+                <div class="col-md-6 col-sm-12 py-5">
+                    <div class="accordion" id="accordionExample">
+                        <!-- List of Sponsors -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: #040707 !important;background-color: white !important;text-align: left;">
+                                List of Sponsors <i class="fas fa-plus float-right " style="margin-top: 13px;"></i></button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="Sponsors">TBC</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- List of Supporting Organisations -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: #040707 !important;background-color: white !important;text-align: left;">
+                                    List of Supporting Organisations <i class="fas fa-plus float-right " style="margin-top: 13px;"></i>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="schoolName mb-0">InHolland</p>
+                                    <p class="schoolName mb-0">Hong Kong Blockchain Society</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
 
         <br>
         <br>
@@ -236,7 +353,7 @@
                 
 
                 <div class="w-100 text-center mt-5">
-                    <button onclick="window.location.href='https://passport.IBCOL.org/';" type="button" class="broder-radius-8px btn btn-primary blueBg" style="text-transform: capitalize;font-size: 20px;font-weight:normal;">
+                    <button onclick="window.location.href='./registration.html';" type="button" class="broder-radius-8px btn btn-primary blueBg" style="text-transform: capitalize;font-size: 20px;font-weight:normal;">
                         Register
                         </button>
                 </div>
@@ -244,6 +361,9 @@
         </div>
         </div>
     </section>
+    </section>
+    </section>
+
 
     
 
@@ -278,14 +398,14 @@
                         <p class="footerParaText mb-4">Hong Kong Blockchain Olympiad<br><a href=""><b>hk@ibcol.org</b></a></p>
                     </div>
                     <div class="col-12">
-                        <a href="https://ibcol.org/"><p class="footerParaText">2022 International Blockchain Olympiad</p> </a>
+                        <a href="https://ibcol.org/"><p class="footerParaText">2023 International Blockchain Olympiad</p> </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-full ss-copyright mt-5 colorWt2">
-                Copyright © 2016-2022 International Blockchain Olympiad. All rights reserved.
+                Copyright © 2016-2023 International Blockchain Olympiad. All rights reserved.
             </div>
         </div>
     </footer>
@@ -294,6 +414,8 @@
     <script src="./js/plugins.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/function.js"></script>
+    <script src="./js/clickToEnlarge.js"></script>
+    <script src="./js/openInNewTab.js"></script>
     <script>
         window.onscroll = function () {
             // if (window.pageYOffset > 60) {
@@ -330,6 +452,10 @@
             var win = window.open(url, "_blank");
             win.focus();
         }
+
+        $('.accordion-button').click(function () {
+            $(this).find('i').toggleClass('fas fa-plus fas fa-minus')
+        });
 
     </script>
 </body>
